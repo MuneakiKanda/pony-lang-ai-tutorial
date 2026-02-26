@@ -1,0 +1,17 @@
+# Pony build artifacts
+build/
+*.o
+*.obj
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/settings.json
+
+# Pony compiled binaries (directories created by ponyc)
+# ponyc outputs the binary in the current directory by default
